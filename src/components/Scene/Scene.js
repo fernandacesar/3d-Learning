@@ -2,6 +2,8 @@ import { useEffect, useRef } from "react";
 import { ContainerScene } from "./Scene.elements";
 import { cleanUpScene, initScene } from "./Script";
 
+
+
 const Scene = () => {
   const mountRef = useRef(null);
 
